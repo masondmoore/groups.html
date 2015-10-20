@@ -1,3 +1,6 @@
+body {
+	background: url(../images/project/large.jpg) repeat;
+}
 .container {
 	max-width: 980px;
 	margin: 0 auto;
@@ -58,8 +61,8 @@ ul.nav-list a:hover {
 ul.nav li:hover ul.nav-list {left: 40px;}
 
 .body{
-	width:980px;
-	padding:500px;
+	background: url("../images/project/sg-about-bg.jpg") no-repeat 50% 100%;
+	padding: 75px 0;
 }
 h3{
 	color:#4786a5;
@@ -79,4 +82,12 @@ background{
 }
 h2{
 	margin:80px;
+}
+
+@media only screen and (min-width: 1500px) {
+	.body {background-size: cover;}
+}
+
+@media only screen and (max-width: 768px) {
+	ul.nav {display: none;}
 }
