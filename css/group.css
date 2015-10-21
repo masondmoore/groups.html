@@ -10,6 +10,12 @@ ul.nav {
 	
 	float:right;
 	position: relative;
+	padding:20 20;
+	margin:0 10px;
+}
+.nav{
+	background: url(../images/project2/large.png) no-repeat;
+	float:left;
 }
 ul.nav li {
 	display: inline-block;
@@ -22,6 +28,7 @@ ul.nav a {
 	font-family: sans-serif;
 	font-size: 14px;
 	padding: 12px 5px 10px;
+	margin:0 5px;
 }
 ul.nav a:hover {
 	background: #eee;
@@ -64,21 +71,18 @@ ul.nav li:hover ul.nav-list {left: 40px;}
 	background: url("../images/project/sg-about-bg.jpg") no-repeat 50% 100%;
 	padding: 75px 0;
 }
+.banner{
+	background: url(../images/project2/large.jpg) no-repeat;
+	padding:50px;
+	color: white;
+	margin: 50px;
+}
 h3{
 	color:#4786a5;
 	
 }
 p{
 	color:#4d5961;
-}
-
-img{
-	background-image: url("images/project.photos.1/thumbnail.jpg");
-	margin:50px;
-}
-
-background{
-	
 }
 h2{
 	margin:80px;
