@@ -1,26 +1,29 @@
 body {
 	background: url(../images/project/large.jpg) repeat;
 }
+
 .container {
 	max-width: 980px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
+
 ul.nav {
 	
 	float:right;
 	position: relative;
-	padding:20 20;
-	margin:0 10px;
-}
-.nav{
+	padding:20px 20px;
+	margin:0px 10px;
 	background: url(../images/project2/large.png) no-repeat;
-	float:left;
+	float:right;
 }
+
 ul.nav li {
 	display: inline-block;
 	margin: 5px 0 0 0;
+
 }
+
 ul.nav a {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -29,10 +32,13 @@ ul.nav a {
 	font-size: 14px;
 	padding: 12px 5px 10px;
 	margin:0 5px;
+	
 }
+
 ul.nav a:hover {
 	background: #eee;
 	border-radius: 5px;
+	
 }
 
 ul.nav-list {
@@ -44,16 +50,20 @@ ul.nav-list {
 	left: -9999px;
 	position: absolute;
 	margin-top: 20px;
+	
 }
+
 ul.nav-list li {
 	display: block;
 	border: 1px solid #eee;
 	margin: 0;
 	padding: 15px 5px 15px 0;
 }
+
 ul.nav-list li:hover {
 	background: #eee;
 }
+
 ul.nav-list a {
 	text-transform: capitalize;
 	color: #1a7bad;
@@ -61,31 +71,52 @@ ul.nav-list a {
 	padding: 0;
 	text-indent: 15px;
 }
+
 ul.nav-list a:hover {
 	border-radius: 0;
 	background: none;
 }
+
 ul.nav li:hover ul.nav-list {left: 40px;}
 
-.body{
+.body {
 	background: url("../images/project/sg-about-bg.jpg") no-repeat 50% 100%;
 	padding: 75px 0;
 }
-.banner{
+
+.banner {
 	background: url(../images/project2/large.jpg) no-repeat;
 	padding:50px;
 	color: white;
-	margin: 50px;
+	margin: 10px;
 }
-h3{
+
+h3 {
 	color:#4786a5;
+	font:sans-serif(helvetica or arial);
 	
 }
-p{
+
+p {
 	color:#4d5961;
+	font:serif;
 }
-h2{
+
+h2 {
 	margin:80px;
+}
+
+.foot {
+	color:#4d5961;
+	width:980px;
+	margin:0 auto;
+	padding: 30px 0px;
+}
+
+.video {
+	width:980px;
+	margin:0 auto;
+	padding: 30px 0px;
 }
 
 @media only screen and (min-width: 1500px) {
