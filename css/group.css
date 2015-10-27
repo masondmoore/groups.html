@@ -120,9 +120,19 @@ h2 {
 }
 
 @media only screen and (min-width: 1500px) {
-	.body {background-size: cover;}
+	.body {background-size: cover;
+	background: url(../images/project2/large.jpg) no-repeat;
+	float:left;}	
 }
 
 @media only screen and (max-width: 768px) {
 	ul.nav {display: none;}
+	.banner{background: url(../images/project2/large.jpg) no-repeat;
+	float:left;}
+}
+
+@media only screen and (max-width: 468px){
+	ul.nav{display: none;}
+	.banner{background: url(../images/project2/large.jpg) no-repeat;
+	float:left;}
 }
